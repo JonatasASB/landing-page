@@ -1,1 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Hind+Mysuru:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, html {
+    overflow-x: hidden !important;
+}
+* {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 800px;
+}
+.header-top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    width: auto;
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+.header-top a {
+    color: #102b4e;
+    margin: 0 100px 0 0;
+    font-weight: 500;
+    word-spacing: 24px;
+}
+.header-top i {
+    margin-right: 5px;
+}
+.header-medium-1 {
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    padding: 20px 0 20px 40px;
+}
+img {
+    width: 85px;
+}
+.header-medium-1 ul {
+    display: flex;
+    justify-content: center;
+}
+.list-header-1 li {
+    color: #102b4e;
+    margin: 0 5px 0 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: hynd misuru, Arial, Helvetica, sans-serif;
+}
+.list-header-1 li:hover {
+    color: blue;
+}
+.header-medium-2 {
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+    padding: 30px 0 30px 0;
+    width: auto;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+.list-header-2 {
+    display:flex;
+    justify-content: space-around;
+}
+.list-header-2 li {
+    font-size: 18px;
+    margin: 0 5px 0 5px;
+    letter-spacing: 1px;
+    color: #00095b;
+    cursor: pointer;
+}
+.list-header-2 li:hover {
+    color: blue;
+    text-decoration:underline;
+}
+.list-header-2 .color-gray:hover {
+    color: #6e6e6e;
+}
+ul .color-gray {
+    color: #6e6e6e;
+}
+li .fa-solid {
+    font-size: 15px
+}
+.header-bottom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+    padding: 30px;
+    width: auto;
+    background-color: #1b3943;
+    font-size: 14px;
+}
+
+
