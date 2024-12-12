@@ -96,14 +96,52 @@ li .fa-solid {
     font-size: 15px
 }
 .header-bottom {
-    display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
-    height: 40px;
-    padding: 30px;
+    height: 50px;
     width: auto;
-    background-color: #1b3943;
-    font-size: 14px;
+    background-color: #00142e;
 }
+.header-bottom-1 {
+    display: flex;
+    background-color: #00095B;
+    height: 50px;
+    flex: 1;
+    align-items: center;
+    padding:0 10px 0 40px;
+    cursor: pointer;
+}
+.header-bottom-1 h1 {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    margin: 0;
+    margin-right: 20px;
+}
+.align-sub-bottom {
+    display: flex;
+    flex: 3;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.align-sub-bottom span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: hind mysuru, poppins, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 13px 0 13px;
+    letter-spacing: -0.2px;
+}
+.sub-bottom-1 {
+    margin-right: 50px;
+}
+.sub-bottom-1,
+.sub-bottom-2 {
+    cursor: pointer;
+}
+
 
 
