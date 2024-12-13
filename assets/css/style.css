@@ -96,10 +96,13 @@ li .fa-solid {
     font-size: 15px
 }
 .header-bottom {
+    position: sticky;
+    top: 75px;
+    z-index: 999;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    width: auto;
+    width: 100%;
     background-color: #00142e;
 }
 .header-bottom-1 {
@@ -142,6 +145,11 @@ li .fa-solid {
 .sub-bottom-2 {
     cursor: pointer;
 }
-
-
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
 
