@@ -97,7 +97,7 @@ li .fa-solid {
 }
 .header-bottom {
     position: sticky;
-    top: 75px;
+    top: 0;
     z-index: 999;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +156,7 @@ li .fa-solid {
     background-image: url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
 }
 .column {
@@ -189,3 +189,9 @@ li .fa-solid {
     text-shadow: 1px 1px 5px #102b4e;
     word-spacing: -1.5px;
 }
+#inf-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
