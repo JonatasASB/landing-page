@@ -193,5 +193,63 @@ li .fa-solid {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 70px 0 70px;
+    height: 150px;
+    border-bottom: 0.5px solid #ccc;
+}
+section,
+div,
+main,
+footer,
+nav {
+    overflow: hidden;
+}
+.inf-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.inf-1 .price {
+    color: #4d4d4d;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+.inf-1 .value {
+    color: #102B4E;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+.value sup {
+    font-size: 12px;
+}
+.inf-2 {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-self: flex-start;
+    margin-top: 38px;
+}
+.inf-2-1,
+.inf-2-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
+.inf-2-1 .power,
+.inf-2-2 .torque {
+    font-size: 16px;
+    color: #102B4E;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.inf-2-1 .cv,
+.inf-2-2 .nm {
+    color: #102B4E;
+    font-size: 24px;
+    font-weight: 600;
+}
