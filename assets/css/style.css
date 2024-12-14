@@ -141,15 +141,51 @@ li .fa-solid {
 .sub-bottom-1 {
     margin-right: 50px;
 }
+.sub-bottom-1 i,
+.sub-bottom-2 i{
+    font-size: 12px;
+}
 .sub-bottom-1,
 .sub-bottom-2 {
     cursor: pointer;
 }
 #banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background-image: url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
-    
+    overflow: hidden;
 }
-
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#banner .column {
+    padding-top: 40px;
+}
+.column h1 {
+    margin: 0;
+    padding: 0;
+    font-family: caveat, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: #102b4e;
+    text-shadow: 0px 0px 2px #102b4e;
+}
+.column h3 {
+    margin: 0;
+    padding: 0;
+    font-family: caveat, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #102b4e;
+    text-shadow: 1px 1px 5px #102b4e;
+    word-spacing: -1.5px;
+}
