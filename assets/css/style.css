@@ -279,6 +279,35 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
+    padding: 0 110px;
     background-color: #00095B ;
+}
+.exp-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.exp-left h1 {
+    width: 350px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: -0.5px;
+    line-height: 50px;
+    font-family: hind mysuru, sans-serif;
+}
+.exp-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.audio-exp-right {
+    margin-top: 20px;
+}
+audio  {
+    max-width: 500px;
 }
