@@ -242,13 +242,35 @@ nav {
 
 .inf-2-1 .power,
 .inf-2-2 .torque {
-    font-size: 16px;
+    font-size: 18px;
     color: #102B4E;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
 .inf-2-1 .cv,
 .inf-2-2 .nm {
+    color: #102B4E;
+    font-size: 24px;
+    font-weight: 600;
+}
+.inf-3 {
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    height: 150px;
+}
+.inf-3-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+ .inf-3 .motor {
+    font-size: 18px;
+    color: #102B4E;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.inf-3 .inf-motor {
     color: #102B4E;
     font-size: 24px;
     font-weight: 600;
