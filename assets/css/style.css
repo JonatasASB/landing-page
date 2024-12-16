@@ -326,6 +326,8 @@ nav {
     background-position: left;
     background-size: cover;
     height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 figure {
     box-shadow: 2px 5px 10px #ddd;
@@ -350,12 +352,16 @@ figure {
     background-position: center;
     background-size: cover;
     height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .img-drift div {
     background-image: url(../images/img-03-main.jpg);
     background-position: center;
     background-size: cover;
     height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 footer {
     padding: 1000px;
