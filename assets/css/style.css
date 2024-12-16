@@ -152,7 +152,7 @@ li .fa-solid {
 #banner {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     background-image: url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -162,21 +162,19 @@ li .fa-solid {
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-}
-#banner .column {
     padding-top: 40px;
 }
 .column h1 {
     margin: 0;
     padding: 0;
-    font-family: caveat, sans-serif;
+    font-family: hind mysuru, sans-serif;
     font-size: 70px;
-    font-weight: 400;
-    letter-spacing: 10px;
-    color: #102b4e;
-    text-shadow: 0px 0px 2px #102b4e;
+    font-weight: 100;
+    letter-spacing: 15px;
+    color: #000;
+    text-shadow: 0px 0px 3px #374658;
 }
 .column h3 {
     margin: 0;
@@ -184,9 +182,9 @@ li .fa-solid {
     font-family: caveat, sans-serif;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 5px;
-    color: #102b4e;
-    text-shadow: 1px 1px 5px #102b4e;
+    letter-spacing: 2px;
+    color: #f5f5f5;
+    text-shadow: 0px 0px 3px #102b4e;
     word-spacing: -1.5px;
 }
 #inf-sec {
@@ -309,30 +307,30 @@ nav {
     margin-top: 20px;
 }
 #information {
-    height: 100vh;
+    display: flex;
+    padding: 150px 0;
 }
 .sec-inform {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
 }
 .inform-motor,
 .inform-visual,
 .inform-drift {
     flex: 1;
-    height: auto;
+    
 }
-figure div {
+.img-motor div {
     background-image: url(../images/img-01-main.jpg);
-    background-position: center;
+    background-position: left;
     background-size: cover;
     height: 250px;
 }
 figure {
-    margin-top: 30px;
-    box-shadow: 0px 0px 10px #ddd;
+    box-shadow: 2px 5px 10px #ddd;
+    height: 650px;
+    border-radius: 5px;
 }
 .title-inform {
     color: #00095b;
@@ -343,6 +341,29 @@ figure {
 .text-inform {
     color:#00095B;
     font-size: 17px;
+    padding: 20px 20px;
+    line-height: 25.6px;
+    letter-spacing: 1px;
+}
+.img-visual div {
+    background-image: url(../images/img-02-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.img-drift div {
+    background-image: url(../images/img-03-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+footer {
+    padding: 1000px;
+}
+.ext-drift {
+    text-align: center;
+    color:#00095B;
+    font-size: 15px;
     padding: 20px 20px;
     line-height: 25.6px;
     letter-spacing: 1px;
