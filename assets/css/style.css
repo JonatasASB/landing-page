@@ -97,7 +97,7 @@ li .fa-solid {
 }
 .header-bottom {
     position: sticky;
-    top: 0;
+    
     z-index: 999;
     justify-content: space-between;
     align-items: center;
@@ -308,7 +308,7 @@ nav {
 }
 #information {
     display: flex;
-    padding: 150px 0;
+    padding: 150px 0 0 0;
 }
 .sec-inform {
     display: flex;
@@ -333,6 +333,7 @@ figure {
     box-shadow: 2px 5px 10px #ddd;
     height: 650px;
     border-radius: 5px;
+    margin: 2px 25px;
 }
 .title-inform {
     color: #00095b;
@@ -363,9 +364,6 @@ figure {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-footer {
-    padding: 1000px;
-}
 .ext-drift {
     text-align: center;
     color:#00095B;
@@ -373,4 +371,12 @@ footer {
     padding: 20px 20px;
     line-height: 25.6px;
     letter-spacing: 1px;
+}
+#qrcode {
+    background-image: url(../images/image.imgs.full.high.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 925px;
+    object-fit: none;
 }
