@@ -447,3 +447,28 @@ figure {
     margin: 0 15px 0 15px;
     color: #00095B;
 }
+.footer-medium-1 {
+    width: 100%;
+    background-color: #00095b;
+}
+.input-search {
+    display: flex;
+    padding: 50px 70px;
+    flex: 1;
+}
+.position {
+    position: absolute;
+    margin-top: 6.52px;
+    margin-left: 3px;
+    
+}
+.footer-medium-1 input {
+    width: 250px;
+    height: 25px;
+    border: 1px solid #fff;
+    background-color: #00095B;
+    border-radius: 5px;
+    padding: 15px 15px 15px 20px;
+    color: #fff;
+    font-weight: 300;
+}
