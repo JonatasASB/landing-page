@@ -392,21 +392,58 @@ figure {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
+
 .image-banner-front button {
-    width: auto;
     font-size: 18px;
     line-height: 48px;
     color: #00095B;
     border-radius: 80px;
-    
     font-weight: 400;
     padding: 5px 20px;
     margin-top: 20px;
     font-family: poppins, sans-serif;
-    transition: all 0.3s;
+    transition: all 0.5s linear;
 }
 .image-banner-front button:hover {
-    padding: 8px 23px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+#footer-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1000px;
+}
+.footer-top {
+    width: 100%;
+    display: flex;
+    padding: 30px 70px 30px 70px;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+}
+.footer-flex-3 {
+    flex: 3;
+    padding: 10px 0;
+}
+.footer-flex-3 i {
+    margin: 0 15px;
+    cursor: pointer;
+}
+.footer-flex-3 span {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.footer-flex-1 {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-flex-1 span {
+    margin: 0 15px 0 15px;
+    color: #00095B;
 }
