@@ -97,11 +97,10 @@ li .fa-solid {
 }
 .header-bottom {
     position: sticky;
-    
     z-index: 999;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: auto;
     width: 100%;
     background-color: #00142e;
 }
@@ -581,5 +580,30 @@ textarea:-moz-placeholder { color:#fff; }
     .title-inform {
         margin: 1px;
         padding: 1px;
+    }
+}
+@media (max-width:768px) {
+    #experience {
+        padding: 0;
+    }
+    .header-bottom {
+        height: auto;
+        flex-direction: column;
+    }
+    .header-bottom-1 {
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .align-sub-bottom {
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .sub-bottom-1 {
+        margin: 0;
+    }
+    .footer-top {
+        padding: 40px 0;
     }
 }
