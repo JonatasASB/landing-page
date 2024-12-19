@@ -415,7 +415,6 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-bottom: 1000px;
 }
 .footer-top {
     width: 100%;
@@ -512,11 +511,54 @@ textarea:-moz-placeholder { color:#fff; }
     color: #a8a8a8;
     font-size: 13px;
     font-weight: 300;
-    letter-spacing: 1px;
     line-height: 22px;
     cursor: pointer;
 }
 .color-gray-bold {
     color: #4d4d4d;
-    cursor: default
+    cursor:text;
+}
+.text-column-footer:hover {
+    color: #fff;
+}
+.footer-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0 20px 70px;
+}
+.footer-bottom-flex-3 {
+    flex: 4;
+}
+.footer-bottom-flex-3 span {
+    color: #868686;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer-bottom-flex-1 {
+    flex: 1;
+}
+.footer-bottom-flex-1 img {
+    width: 90px;
+    height: 35px;
+    float: right;
+}
+.footer-bottom-flex-3 span {
+    margin: 0 10px;
+}
+.flex-row-2 img {
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+.flex-row-2 span {
+    color: #a8a8a8;
+    font-size: 15px;
+    margin-left: 15px;
 }
