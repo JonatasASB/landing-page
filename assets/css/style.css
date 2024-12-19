@@ -447,6 +447,9 @@ figure {
     margin: 0 15px 0 15px;
     color: #00095B;
 }
+.footer-flex-1 i {
+    cursor: pointer;
+}
 .footer-medium-1 {
     width: 100%;
     background-color: #00095b;
@@ -471,4 +474,49 @@ figure {
     padding: 15px 15px 15px 20px;
     color: #fff;
     font-weight: 300;
+}
+::-webkit-input-placeholder  { color:#fff; }
+input:-moz-placeholder { color:#fff; }
+textarea:-moz-placeholder { color:#fff; }
+.footer-medium-2 {
+    height: auto;
+    width: 100%;
+    background-color: #00142e;
+}
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 70px;
+}
+.column-footer-1,
+.column-footer-2,
+.column-footer-3,
+.column-footer-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.title-column-footer {
+    color: #DFDFD9;
+    font-family: mind mysuru, sans-serif;
+    font-size: 18px;
+    text-align:left;
+    font-weight: 400;
+    cursor: pointer;
+}
+.text-column-footer {
+    margin: 5px 0;
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.color-gray-bold {
+    color: #4d4d4d;
+    cursor: default
 }
