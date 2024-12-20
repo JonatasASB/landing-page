@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
     <link rel="shortcut icon" type="imagex/png" href="assets/images/ford.ico">
     <script src="https://kit.fontawesome.com/5331c933bd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".header-medium-1 nav ul").style.display == 'flex') {
+                    document.querySelector(".header-medium-1 nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".header-medium-1 nav ul").style.display = 'flex'
+                }
+            });
+        };
+    </script>
     <title>Mustang GT</title>
 </head>
 <body>
@@ -18,8 +29,13 @@
             <div class="logo">
                 <a href=""><img src="assets/images/logo-header.jpg" alt="logo"></a>
             </div>
-            <nav>
-                <ul class="list-header-1">
+            <nav class="list-header-1">
+                <div class="menuMobile">
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                </div>
+                <ul class="header-ul">
                     <a href=""><li>Veículos</li></a>
                     <a href=""><li>Ofertas</li></a>
                     <a href=""><li>Comprar</li></a>
