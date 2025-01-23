@@ -391,10 +391,6 @@ figure {
     align-items: center;
     margin: 40px 0;
 }
-#colors-car span {
-    display: inline-block;
-    text-align: center;
-}
 .container-colors {
     display: flex;
     flex-direction: column;
@@ -420,19 +416,35 @@ figure {
 }
 .selection-colors {
     margin: 0 0 50px 0;
+    display: flex;
+    gap: 15px;
 }
 .selection-colors span {
-    margin: 0 3px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
-.selection-colors .branco-artico {
-    background-color: #EAE5E5;
+.area-cars img {
+    margin-top: -100px;
 }
-.selection-colors .branco-artico:active {
-    background-color: white;
-    border: 10px solid #EAE5E5;
+.icon-check{
+    background-image: url('../images/check.png');
+    background-size: cover;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px 0 0 -74px;
+    display: block;
+}
+.active {
+    display: block;
+}
+.icon-last {
+    position: absolute;
+    right: 27.85%;
+}
+.selection-colors .branco-artico {
+    
+    background-color: #EAE5E5;
 }
 .selection-colors .vermelho-zadar {
     background-color: #921513;
