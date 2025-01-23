@@ -44,7 +44,7 @@ header {
     width: auto;
     padding: 20px 0 20px 40px;
 }
-img {
+.logo img {
     width: 85px;
 }
 .header-medium-1 ul {
@@ -384,6 +384,76 @@ figure {
     padding: 20px 20px;
     line-height: 25.6px;
     letter-spacing: 1px;
+}
+#colors-car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+#colors-car span {
+    display: inline-block;
+    text-align: center;
+}
+.container-colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color-car {
+    font-size: 45px;
+    color: #555;
+    font-weight: 300;
+}
+.availability {
+    color: #00095b;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0;
+    width: 120px;
+    border-bottom: 5px solid #00095B;
+    padding-bottom: 15px;
+}
+.title-color {
+    color: #00142e;
+    font-size: 35px;
+}
+.selection-colors {
+    margin: 0 0 50px 0;
+}
+.selection-colors span {
+    margin: 0 3px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.selection-colors .branco-artico {
+    background-color: #EAE5E5;
+}
+.selection-colors .branco-artico:active {
+    background-color: white;
+    border: 10px solid #EAE5E5;
+}
+.selection-colors .vermelho-zadar {
+    background-color: #921513;
+}
+.selection-colors .preto-asturias {
+    background-color: #000;
+}
+.selection-colors .cinza-torres {
+ background-color: #6D6F72;
+}
+.selection-colors .cinza-catalunha {
+    background-color: #4F4D4E;
+}
+.selection-colors .azul-estoril {
+    background-color: #4CAEFF;
+}
+.selection-colors .vermelho-arizona {
+    background-color: #C8200E;
+}
+.selection-colors .azul-algarve {
+    background-color: #6E8E9C;
 }
 #qrcode img {
     width: 100%;
