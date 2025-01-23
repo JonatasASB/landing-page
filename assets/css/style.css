@@ -415,32 +415,31 @@ figure {
     font-size: 35px;
 }
 .selection-colors {
+    width: 100%;
     margin: 0 0 50px 0;
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 30px;
 }
 .selection-colors span {
+    display: block;
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
+.selection-colors span {
+    cursor: pointer;
+}
 .area-cars img {
     margin-top: -100px;
 }
-.icon-check{
-    background-image: url('../images/check.png');
-    background-size: cover;
-    max-width: 50px;
-    max-height: 50px;
-    margin: 10px 0 0 -74px;
-    display: block;
-}
 .active {
     display: block;
-}
-.icon-last {
-    position: absolute;
-    right: 27.85%;
+    background-image: url('../images/check.png');
+    background-size: cover;
+    max-width: 45px;
+    max-height: 45px;
+    margin: 12.5px 0 0 13px;
 }
 .selection-colors .branco-artico {
     
