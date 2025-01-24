@@ -680,6 +680,21 @@ textarea:-moz-placeholder { color:#fff; }
     .ext-drift {
         font-size: 10px;
     }
+    .area-cars img {
+        height: 350px;
+    }
+    .selection-colors {
+        gap: 15px;
+    }
+    .selection-colors span {
+        width: 35px;
+        height: 35px;
+    }
+    .active {
+        max-width: 20px;
+        max-height: 20px;
+        margin: 7px 0 0 8px;
+        }
 }
 @media (max-width:768px) {
     #experience {
@@ -760,6 +775,25 @@ textarea:-moz-placeholder { color:#fff; }
     .inform-drift {
         margin: 0;
         padding: 20px 0;
+    }
+    .title-color {
+        font-size: 25px;
+    }
+    .area-cars img {
+        height: 190px;
+        margin: 5px 0;
+    }
+    .selection-colors {
+        gap: 8px;
+    }
+    .selection-colors span {
+        width: 29px;
+        height: 29px;
+    }
+    .active {
+        max-width: 20px;
+        max-height: 20px;
+        margin: 4.4px 0 0 5px;
     }
     .inf-2 {
         align-self: center;

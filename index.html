@@ -12,8 +12,10 @@
             document.querySelector(".menuMobile").addEventListener("click", function(){
                 if(document.querySelector(".header-medium-1 nav ul").style.display == 'flex') {
                     document.querySelector(".header-medium-1 nav ul").style.display = 'none';
+                    document.querySelector('div.logo').style.display = 'block'
                 } else {
                     document.querySelector(".header-medium-1 nav ul").style.display = 'flex'
+                    document.querySelector('div.logo').style.display = 'none'
                 }
             });
         };
