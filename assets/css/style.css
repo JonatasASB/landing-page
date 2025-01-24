@@ -432,6 +432,7 @@ figure {
 }
 .area-cars img {
     margin-top: -100px;
+    height: 509px;
 }
 .active {
     display: block;
