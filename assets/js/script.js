@@ -45,7 +45,7 @@ blueAlgarve.addEventListener('click', () => {
     if (!blueAlgarve.classList.contains('active')) {
         blueAlgarve.classList.add('active')
         titleColor.innerHTML = `Azul Algarve`
-        areaCar.src = '/assets/images/azul.algarve.png'
+        areaCar.src = 'assets/images/azul.algarve.png'
     }
 })
 
@@ -60,7 +60,7 @@ redZadar.addEventListener('click', () => {
     if (!redZadar.classList.contains('active')) {
         redZadar.classList.add('active')
         titleColor.innerHTML = `Vermelho Zadar`
-        areaCar.src = '/assets/images/vermelho-zadar.png'
+        areaCar.src = 'assets/images/vermelho-zadar.png'
     }
 })
 blackAsturias.addEventListener('click', () => {
@@ -74,7 +74,7 @@ blackAsturias.addEventListener('click', () => {
     if (!blackAsturias.classList.contains('active')) {
         blackAsturias.classList.add('active')
         titleColor.innerHTML = `Preto Asturias`
-        areaCar.src = '/assets/images/preto-asturias.png'
+        areaCar.src = 'assets/images/preto-asturias.png'
     }
 })
 greyTorres.addEventListener('click', () => {
@@ -88,7 +88,7 @@ greyTorres.addEventListener('click', () => {
     if (!greyTorres.classList.contains('active')) {
         greyTorres.classList.add('active')
         titleColor.innerHTML = `Cinza Torres`
-        areaCar.src = '/assets/images/cinza-torres.png'
+        areaCar.src = 'assets/images/cinza-torres.png'
     }
 })
 greyCatalunha.addEventListener('click', () => {
@@ -102,7 +102,7 @@ greyCatalunha.addEventListener('click', () => {
     if (!greyCatalunha.classList.contains('active')) {
         greyCatalunha.classList.add('active')
         titleColor.innerHTML = `Cinza Catalunha`
-        areaCar.src = '/assets/images/cinza-catalunia.png'
+        areaCar.src = 'assets/images/cinza-catalunia.png'
     }
 })
 blueEstoril.addEventListener('click', () => {
@@ -116,7 +116,7 @@ blueEstoril.addEventListener('click', () => {
     if (!blueEstoril.classList.contains('active')) {
         blueEstoril.classList.add('active')
         titleColor.innerHTML = `Azul Estoril`
-        areaCar.src = '/assets/images/azul-estoril.png'
+        areaCar.src = 'assets/images/azul-estoril.png'
     }
 })
 redArizona.addEventListener('click', () => {
@@ -130,6 +130,6 @@ redArizona.addEventListener('click', () => {
     if (!redArizona.classList.contains('active')) {
         redArizona.classList.add('active')
         titleColor.innerHTML = `Vermelho Arizona`
-        areaCar.src = '/assets/images/vermelho-arizona.png'
+        areaCar.src = 'assets/images/vermelho-arizona.png'
     }
 })
